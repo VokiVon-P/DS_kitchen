@@ -5,10 +5,10 @@
  
  **Пример обработки:**
  - Исходный образец
- <img src="/resources/base.jpg" alt="source image" width="800"/>
+  <img src="CV/ASPP_segmentation/resources/base.jpg" alt="source image" width="800"/>
  
   - Результат
- <img src="/resources/result.png" alt="result image" width="800"/>
+ <img src="resources/result.png" alt="result image" width="800"/>
    
  #### TODO:
     - реализовать на torch
