@@ -3,7 +3,13 @@
  - Обучается сегментировать людей на картинке
  - Версия использует датасет COCO и реализована на TF2/Keras
  
+ **Пример обработки:**
+ - Исходный образец
+ <img src="/resources/base.jpg" alt="source image" width="800"/>
  
+  - Результат
+ <img src="/resources/result.png" alt="result image" width="800"/>
+   
  #### TODO:
     - реализовать на torch
     - сравнить две версии

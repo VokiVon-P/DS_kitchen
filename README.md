@@ -4,10 +4,10 @@
 - Учебные и не очень проекты которые хочеться довести до ума
 
 ## Проекты
-#### Business projects
-* <b>Churn in game</b> - [`Pipeline модели оттока в игровой индустрии`](https://github.com/VokiVon-P/DS_kitchen/tree/master/bis_projects/Churn_in_game)
-#### Computer vision
-* <b>ASPP segmentation</b> - [`Реализация пирамидальной CNN для задачи сегментации`](https://github.com/VokiVon-P/DS_kitchen/tree/master/bis_projects/Churn_in_game)
+### Business projects
+* [<b>Churn in game</b>](https://github.com/VokiVon-P/DS_kitchen/tree/master/bis_projects/Churn_in_game) - Pipeline модели оттока в игровой индустрии
+### Computer vision
+* [<b>ASPP segmentation</b>](https://github.com/VokiVon-P/DS_kitchen/tree/master/CV/ASPP_segmentation) - Реализация пирамидальной CNN для задачи сегментации
 
 ### Repository structure
 
