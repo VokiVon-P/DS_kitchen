@@ -9,6 +9,10 @@
 ### Computer vision
 * [<b>ASPP segmentation</b>](https://github.com/VokiVon-P/DS_kitchen/tree/master/CV/ASPP_segmentation) - Реализация пирамидальной CNN для задачи сегментации
 
+### Utils
+- [explogging](https://github.com/VokiVon-P/DS_kitchen/blob/master/utils/explogging.py) -- логирование экспериментов 
+
+
 ### Repository structure
 
 * в `master` ветке - проекты имеющие завершенный вид
