@@ -5,9 +5,9 @@
 
 ## Проекты
 ### Business projects
-* [<b>Churn in game</b>](https://github.com/VokiVon-P/DS_kitchen/tree/master/bis_projects/Churn_in_game) - Pipeline модели оттока в игровой индустрии
+* [<b>Churn in game</b>](https://github.com/VokiVon-P/DS_kitchen/tree/master/Churn_in_game) - Pipeline модели оттока в игровой индустрии
 ### Computer vision
-* [<b>ASPP segmentation</b>](https://github.com/VokiVon-P/DS_kitchen/tree/master/CV/ASPP_segmentation) - Реализация пирамидальной CNN для задачи сегментации
+* [<b>ASPP segmentation</b>](https://github.com/VokiVon-P/DS_kitchen/tree/master/ASPP_segmentation) - Реализация пирамидальной CNN для задачи сегментации
 
 ### Utils
 - [exp_logging](https://github.com/VokiVon-P/DS_kitchen/tree/master/common/exp_logging.py) -- логирование экспериментов
