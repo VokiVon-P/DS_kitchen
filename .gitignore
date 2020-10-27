@@ -128,5 +128,6 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-_data_/
 data/
+_data_/
+_templ_/
