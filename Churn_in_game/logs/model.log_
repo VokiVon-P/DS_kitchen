@@ -1,0 +1,89 @@
+2020-10-27 22:14:36,626 model_logger    INFO     MainProcess logger configured and started
+2020-10-27 22:14:36,637 model_logger    INFO     MainProcess Config file ./config/model_cfg.yaml загружен
+2020-10-27 22:14:37,345 model_logger    INFO     MainProcess Приложение запущено в режиме: all 
+2020-10-27 22:14:37,346 model_logger    INFO     MainProcess Start reading csv files: 2020-10-27 22:14:37.346937
+2020-10-27 22:16:20,538 model_logger    INFO     MainProcess Run time (reading csv files): 0:01:43.191356
+2020-10-27 22:16:20,539 model_logger    INFO     MainProcess NO dealing with outliers, missing values and categorical features...
+2020-10-27 22:16:20,539 model_logger    INFO     MainProcess Creating dataset...
+2020-10-27 22:16:37,376 model_logger    INFO     MainProcess Processing with features: ['trans_amt', 'pay_amt']
+2020-10-27 22:16:40,252 model_logger    INFO     MainProcess Run time (calculating features): 0:02:02.905673
+2020-10-27 22:17:50,270 model_logger    INFO     MainProcess Processing with features: ['reports_amt']
+2020-10-27 22:17:53,007 model_logger    INFO     MainProcess Run time (calculating features): 0:03:15.660688
+2020-10-27 22:21:31,228 model_logger    INFO     MainProcess Processing with features: ['sess_with_abusers_amt']
+2020-10-27 22:21:36,591 model_logger    INFO     MainProcess Run time (calculating features): 0:06:59.244789
+2020-10-27 22:25:48,643 model_logger    INFO     MainProcess Processing with features: ['disconnect_amt', 'session_amt']
+2020-10-27 22:26:00,700 model_logger    INFO     MainProcess Run time (calculating features): 0:11:23.353902
+2020-10-27 22:30:05,352 model_logger    INFO     MainProcess Processing with features: ['avg_min_ping']
+2020-10-27 22:30:11,762 model_logger    INFO     MainProcess Run time (calculating features): 0:15:34.415374
+2020-10-27 22:34:11,780 model_logger    INFO     MainProcess Processing with features: ['win_rate', 'leavings_rate', 'kd', 'session_player']
+2020-10-27 22:34:33,461 model_logger    INFO     MainProcess Run time (calculating features): 0:19:56.114951
+2020-10-27 22:38:56,481 model_logger    INFO     MainProcess Processing with features: ['gold_spent', 'silver_spent']
+2020-10-27 22:39:08,348 model_logger    INFO     MainProcess Run time (calculating features): 0:24:31.001530
+2020-10-27 22:39:49,147 model_logger    INFO     MainProcess Dataset is successfully built and saved to ../_data_/data_churn_in_game/dataset/dataset_raw_train.csv, run time "build_dataset_raw": 0:25:11.800761
+2020-10-27 22:39:51,774 model_logger    INFO     MainProcess Run time "build_dataset_raw": 0:25:14.427073
+2020-10-27 22:39:51,775 model_logger    INFO     MainProcess Start reading csv files: 2020-10-27 22:39:51.775008
+2020-10-27 22:40:00,592 model_logger    INFO     MainProcess Run time (reading csv files): 0:00:08.817973
+2020-10-27 22:40:00,594 model_logger    INFO     MainProcess NO dealing with outliers, missing values and categorical features...
+2020-10-27 22:40:00,594 model_logger    INFO     MainProcess Creating dataset...
+2020-10-27 22:40:02,192 model_logger    INFO     MainProcess Processing with features: ['trans_amt', 'pay_amt']
+2020-10-27 22:40:02,420 model_logger    INFO     MainProcess Run time (calculating features): 0:00:10.645601
+2020-10-27 22:40:08,943 model_logger    INFO     MainProcess Processing with features: ['reports_amt']
+2020-10-27 22:40:09,134 model_logger    INFO     MainProcess Run time (calculating features): 0:00:17.359229
+2020-10-27 22:40:28,933 model_logger    INFO     MainProcess Processing with features: ['sess_with_abusers_amt']
+2020-10-27 22:40:29,286 model_logger    INFO     MainProcess Run time (calculating features): 0:00:37.511097
+2020-10-27 22:40:52,047 model_logger    INFO     MainProcess Processing with features: ['disconnect_amt', 'session_amt']
+2020-10-27 22:40:52,817 model_logger    INFO     MainProcess Run time (calculating features): 0:01:01.042007
+2020-10-27 22:41:16,110 model_logger    INFO     MainProcess Processing with features: ['avg_min_ping']
+2020-10-27 22:41:16,546 model_logger    INFO     MainProcess Run time (calculating features): 0:01:24.771713
+2020-10-27 22:41:39,481 model_logger    INFO     MainProcess Processing with features: ['win_rate', 'leavings_rate', 'kd', 'session_player']
+2020-10-27 22:41:41,086 model_logger    INFO     MainProcess Run time (calculating features): 0:01:49.311590
+2020-10-27 22:42:05,850 model_logger    INFO     MainProcess Processing with features: ['gold_spent', 'silver_spent']
+2020-10-27 22:42:06,648 model_logger    INFO     MainProcess Run time (calculating features): 0:02:14.873920
+2020-10-27 22:42:11,163 model_logger    INFO     MainProcess Dataset is successfully built and saved to ../_data_/data_churn_in_game/dataset/dataset_raw_test.csv, run time "build_dataset_raw": 0:02:19.388298
+2020-10-27 22:42:11,268 model_logger    INFO     MainProcess Run time "build_dataset_raw": 0:02:19.493690
+2020-10-27 22:42:15,886 model_logger    INFO     MainProcess Файл ../_data_/data_churn_in_game/dataset/dataset_raw_train.csv загружен
+2020-10-27 22:42:16,316 model_logger    INFO     MainProcess Файл ../_data_/data_churn_in_game/dataset/dataset_raw_test.csv загружен
+2020-10-27 22:42:16,317 model_logger    DEBUG    MainProcess Размерность загруженных файлов: (469475, 62), (44764, 61)
+2020-10-27 22:42:16,318 model_logger    DEBUG    MainProcess Dealing with missing values, outliers, categorical features...
+2020-10-27 22:43:03,375 model_logger    DEBUG    MainProcess Dataset is successfully prepared and saved to ../_data_/data_churn_in_game/dataset/dataset_train.csv, run time (dealing with bad values): 0:00:47.057823
+2020-10-27 22:43:03,376 model_logger    DEBUG    MainProcess Dealing with missing values, outliers, categorical features...
+2020-10-27 22:43:07,861 model_logger    DEBUG    MainProcess Dataset is successfully prepared and saved to ../_data_/data_churn_in_game/dataset/dataset_test.csv, run time (dealing with bad values): 0:00:04.485408
+2020-10-27 22:43:12,997 model_logger    INFO     MainProcess Файл ../_data_/data_churn_in_game/dataset/dataset_train.csv загружен
+2020-10-27 22:43:13,113 model_logger    INFO     MainProcess 
+Время выполнения load_data_for_train : 5.22 секунды
+
+2020-10-27 22:43:13,582 model_logger    INFO     MainProcess ../_data_/data_churn_in_game/model/model_scaler.pkl
+2020-10-27 22:43:13,588 model_logger    INFO     MainProcess Модель успешно сохранена!
+2020-10-27 22:43:13,589 model_logger    INFO     MainProcess 
+Время выполнения save_model : 0.01 секунды
+
+2020-10-27 22:43:22,518 model_logger    INFO     MainProcess 
+Время выполнения scale_balance_train : 9.40 секунды
+
+2020-10-27 22:43:32,246 model_logger    INFO     MainProcess Base: f1 = 0.82 (+/- 0.00)
+2020-10-27 22:43:32,247 model_logger    INFO     MainProcess Base: recall = 0.88 (+/- 0.01)
+2020-10-27 22:43:32,248 model_logger    INFO     MainProcess Base: precision = 0.77 (+/- 0.00)
+2020-10-27 22:43:32,249 model_logger    INFO     MainProcess 
+Время выполнения run_cv : 9.73 секунды
+
+2020-10-27 22:45:09,036 model_logger    INFO     MainProcess Final: f1 = 0.91 (+/- 0.00)
+2020-10-27 22:45:09,037 model_logger    INFO     MainProcess Final: recall = 0.96 (+/- 0.00)
+2020-10-27 22:45:09,038 model_logger    INFO     MainProcess Final: precision = 0.87 (+/- 0.00)
+2020-10-27 22:45:09,039 model_logger    INFO     MainProcess 
+Время выполнения run_cv : 96.79 секунды
+
+2020-10-27 22:45:58,842 model_logger    INFO     MainProcess 
+Время выполнения train_model : 156.32 секунды
+
+2020-10-27 22:45:58,843 model_logger    INFO     MainProcess ../_data_/data_churn_in_game/model/xgb_model.pkl
+2020-10-27 22:45:59,001 model_logger    INFO     MainProcess Модель успешно сохранена!
+2020-10-27 22:45:59,002 model_logger    INFO     MainProcess 
+Время выполнения save_model : 0.16 секунды
+
+2020-10-27 22:45:59,521 model_logger    INFO     MainProcess Файл ../_data_/data_churn_in_game/dataset/dataset_test.csv загружен
+2020-10-27 22:45:59,538 model_logger    INFO     MainProcess Модель ../_data_/data_churn_in_game/model/model_scaler.pkl загружена
+2020-10-27 22:45:59,619 model_logger    INFO     MainProcess Модель ../_data_/data_churn_in_game/model/xgb_model.pkl загружена
+2020-10-27 22:45:59,620 model_logger    DEBUG    MainProcess predict модель: <class 'sklearn.pipeline.Pipeline'>
+2020-10-27 22:46:00,055 model_logger    DEBUG    MainProcess результат predict_proba = (44764, 2)
+2020-10-27 22:46:00,414 model_logger    INFO     MainProcess Результат работы модели (44764, 2) записан в: H:\_PROJECTS_\DS_kitchen\_data_\data_churn_in_game\result\prediction_result.csv
+2020-10-27 22:46:00,422 model_logger    INFO     MainProcess Приложение успешно завершено в режиме: all 
