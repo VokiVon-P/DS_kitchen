@@ -1,0 +1,45 @@
+disable_existing_loggers: false
+formatters:
+  std_format:
+    format: '{asctime} -{levelname} - {name} - {module}:{funcName}:{lineno} - {message}'
+    style: '{'
+  detailed:
+    class: logging.Formatter
+    format: '%(asctime)s %(name)-15s %(levelname)-8s %(processName)-10s %(message)s'
+
+handlers:
+  console:
+    class: logging.StreamHandler
+    formatter: std_format
+    level: INFO
+  model_file:
+    class: logging.FileHandler
+    filename: 'logs/model.log'
+    mode: w
+    formatter: detailed
+    level: DEBUG
+  full_file:
+    class: logging.FileHandler
+    filename: 'logs/full-log.log'
+    mode: w
+    formatter: detailed
+    level: DEBUG
+  errors:
+    class: logging.FileHandler
+    filename: 'logs/errors.log'
+    mode: w
+    formatter: detailed
+    level: WARNING
+    # stream: ext://sys.stdout
+
+loggers:
+  model_logger:
+    handlers:
+    - console
+    - model_file
+    level: DEBUG
+    propagate: False
+root:
+  level: DEBUG
+  handlers: [console, full_file, errors]
+version: 1

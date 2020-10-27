@@ -131,3 +131,4 @@ dmypy.json
 data/
 _data_/
 _templ_/
+.idea
